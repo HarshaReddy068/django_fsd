@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>5th Lab Program</title>
+    <style>
+      .ione: {
+        background-color: black;
+        color: red;
+        display: table;
+      }
+      .keshav {
+        background-color: black;
+        color: yellow;
+        display: table;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 class="iOne">Unordered list of fruits</h2>
+    <ul>
+      {{fruits|unordered_list}}
+    </ul>
+    <h2 class="keshav">Ordered list of students</h2>
+    <ol>
+      {% for stud in selected_students %}
+      <li>{{stud}}</li>
+      {% endfor %}
+    </ol>
+  </body>
+</html>

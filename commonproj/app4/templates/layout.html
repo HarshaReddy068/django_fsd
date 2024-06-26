@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>{% block title %} {% endblock %}</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse">
+      <a href="/home">Home</a>|&emsp; 
+      <a href="/aboutus">About us</a>|&emsp;
+      <a href="/contactus">Contact us</a>|&emsp;
+    </nav>
+
+    <section>{% block content %} {% endblock %}</section>
+
+    <div style="margin-top: 770px">
+      <footer >
+        <hr />
+        copy:2024 6th sem CMRIT Harsha Reddy
+      </footer>
+    </div>
+
+  </body>
+</html>
