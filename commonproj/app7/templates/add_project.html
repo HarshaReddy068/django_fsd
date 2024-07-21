@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Django project 7</title>
+    </head>
+    <body>
+        <h1> Submit your project details here !!!</h1>
+        <form method="post">
+            {% csrf_token %}
+            {{ openAddProjDetsForm.as_p }}
+            <table>
+                <tr>
+                    <td>
+                        <input type="submit" value="Add" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>

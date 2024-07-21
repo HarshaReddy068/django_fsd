@@ -41,6 +41,11 @@ INSTALLED_APPS = [
     'app4', # for Program-4
     'app5', # for Program-5
     'app6', # for Program-6
+    'app7', # for Program-7
+    'app8', # for Program-8
+    'app9', # for Program-9
+    'app10', # for Program-10
+    'app11', # for Program-11
 ]
 
 MIDDLEWARE = [
