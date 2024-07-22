@@ -44,7 +44,7 @@ urlpatterns = [
     
     # for program-6 No views and Urls requried
     
-    path("prog6",addProject), # for program-7
+    path("prog7",addProject), # for program-7
     
     # for program-8
     path("student_list/", StudentListGenView.as_view()),

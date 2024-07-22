@@ -12,8 +12,6 @@ class Course(models.Model):
     def __str__(self):
         return self.course_name
     
-    
-
 class Student(models.Model):
     student_usn = models.CharField(max_length=10, blank=False, null=False, unique=True)
     student_name = models.CharField(max_length=80,blank=False, null=False)
